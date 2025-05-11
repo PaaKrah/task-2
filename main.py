@@ -1,0 +1,5 @@
+name= input("Enter name: ")
+age= int(input("Enter age: "))
+current_year = int(input("Enter the current_year: "))
+when_100=current_year + (100 - age)
+print(f"Hey {name}, you will turn 100 years old in {when_100}.")
